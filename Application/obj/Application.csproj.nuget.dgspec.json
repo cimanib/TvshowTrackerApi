@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bulelanicimani/Documents/TVShowTracker/TvShowTracker/Application/Application.csproj": {}
+  },
+  "projects": {
+    "/Users/bulelanicimani/Documents/TVShowTracker/TvShowTracker/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bulelanicimani/Documents/TVShowTracker/TvShowTracker/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/bulelanicimani/Documents/TVShowTracker/TvShowTracker/Application/Application.csproj",
+        "packagesPath": "/Users/bulelanicimani/.nuget/packages/",
+        "outputPath": "/Users/bulelanicimani/Documents/TVShowTracker/TvShowTracker/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bulelanicimani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/bulelanicimani/Documents/TVShowTracker/TvShowTracker/Domain/Domain.csproj": {
+                "projectPath": "/Users/bulelanicimani/Documents/TVShowTracker/TvShowTracker/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bulelanicimani/Documents/TVShowTracker/TvShowTracker/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bulelanicimani/Documents/TVShowTracker/TvShowTracker/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/bulelanicimani/Documents/TVShowTracker/TvShowTracker/Domain/Domain.csproj",
+        "packagesPath": "/Users/bulelanicimani/.nuget/packages/",
+        "outputPath": "/Users/bulelanicimani/Documents/TVShowTracker/TvShowTracker/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bulelanicimani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

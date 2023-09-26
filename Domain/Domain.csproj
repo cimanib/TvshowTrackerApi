@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Shared\" />
+    <None Remove="Users\" />
+    <None Remove="Abstractions\" />
+    <None Remove="TvShow\" />
+    <None Remove="UserEpisodes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Shared\" />
+    <Folder Include="Users\" />
+    <Folder Include="Abstractions\" />
+    <Folder Include="TvShow\" />
+    <Folder Include="UserEpisodes\" />
+  </ItemGroup>
+</Project>

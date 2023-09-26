@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Tvshow\" />
+    <None Remove="Abstractions\" />
+    <None Remove="Abstractions\Messaging\" />
+    <None Remove="Users\" />
+    <None Remove="Users\Queries\" />
+    <None Remove="Users\Queries\Login\" />
+    <None Remove="Users\Commands\" />
+    <None Remove="Users\Commands\CreateUser\" />
+    <None Remove="Tvshow\Commands\" />
+    <None Remove="Tvshow\Queries\" />
+    <None Remove="Helpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tvshow\" />
+    <Folder Include="Abstractions\" />
+    <Folder Include="Abstractions\Messaging\" />
+    <Folder Include="Users\" />
+    <Folder Include="Users\Queries\" />
+    <Folder Include="Users\Queries\Login\" />
+    <Folder Include="Users\Commands\" />
+    <Folder Include="Users\Commands\CreateUser\" />
+    <Folder Include="Tvshow\Commands\" />
+    <Folder Include="Tvshow\Queries\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+</Project>
